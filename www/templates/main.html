@@ -1,0 +1,53 @@
+<ion-side-menus ng-controller="MainCtrl">
+    <ion-pane ion-side-menu-content>
+        <ion-nav-view name="menuContent" animation="slide-left-right">
+        </ion-nav-view>
+    </ion-pane>
+
+    <ion-side-menu side="left">
+        <header class="bar bar-header bar-stable">
+            <h1 class="title">Settings</h1>
+        </header>
+        <ion-content class="has-header">
+            <ion-item class="ima">
+                <img src="images/wioflix-logo.png">
+            </ion-item>
+            <ion-list>
+                <ion-item nav-clear="" class="item-divider item">
+                    Sites {{category}}
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/main/imdb">
+                    IMDB
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/main/mc">
+                    Metacritic
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/main/rt">
+                    Rotten Tomatoes
+                </ion-item>
+                <br><br>
+                <ion-item nav-clear="" class="item-divider item">
+                    Personalized
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/main/queue">
+                    My Queue
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/main/random">
+                    Random Pick
+                </ion-item>
+            </ion-list>
+            </div>
+
+        </ion-content>
+        <ion-footer-bar class="bar-dark bar bar-footer">
+            <a class="button button-clear nav-clear">US Content</a>
+            <a class="button button-clear ion-ios7-email" ng-click="mail()"></a>
+        </ion-footer-bar>
+    </ion-side-menu>
+
+    <ion-side-menu side="right">
+        <ion-nav-view name="filterContent" animation="slide-right-left">
+
+        </ion-nav-view>
+    </ion-side-menu>
+</ion-side-menus>

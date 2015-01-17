@@ -1,0 +1,34 @@
+<ion-view title="My Queue">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-ios7-settings"></button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button black" ng-click="cleary()">Empty Queue</button>
+    </ion-nav-buttons>
+    <ion-content class="has-header">
+        <div class="list list-inset">
+            <label for="searchText" class="item item-input searchlabel">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type='text' ng-model='searchText' placeholder="Search"/>
+            </label>
+        </div>
+        <div class="list">
+            <a ng-show="posts.length==0" class="item">
+                <h2>Your queue is empty.</h2>
+                <p>Add movies you want to watch later!</p>
+            </a>
+            <a ng-repeat="post in posts | filter:searchText "
+               class="item item-thumbnail-left">
+
+                <img ng-src="{{post.imgN}}">
+                <h2>{{post.title }}</h2>
+                <p>{{post.rating}}{{post.userRating}}{{post.userScore}}{{post.metaScore}}/10</p>
+                <p>{{post.year}}</p>
+
+                <button ng-click="openS('{{post.url}}')" class="button icon ion-ios7-arrow-thin-up button-light"></button>
+                <button ng-click="openN('{{post.urlN}}')" class="button icon ion-ios7-play button-light"></button>
+                <button ng-click="remove(post.title)" class="button icon ion-ios7-close-empty button-light"></button>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

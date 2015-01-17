@@ -1,0 +1,308 @@
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \000031;
+  }
+}
+
+.bar.bar-light {
+  background-color: #b9090b;
+  color: white;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \000035;
+  }
+}
+
+.bar.bar-light .title {
+  color: white;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \000039;
+  }
+}
+
+.bar.bar-light button {
+  color: white;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000312;
+  }
+}
+
+.bar.bar-light button:active {
+  color: white;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000315;
+  }
+}
+
+.bar.bar-light button:hover {
+  color: white;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000320;
+  }
+}
+
+.bar-footer {
+  background-color: #b9090b !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000324;
+  }
+}
+
+#logo {
+  margin-top: -25px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000328;
+  }
+}
+
+#logo img {
+  width: 300px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000333;
+  }
+}
+
+#list {
+  width: 170px;
+  margin: 30px auto;
+  font-size: 20px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000338;
+  }
+}
+
+#list ol {
+  margin-top: 30px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000341;
+  }
+}
+
+#list ol li {
+  text-align: left;
+  list-style: decimal;
+  margin: 10px 0px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000349;
+  }
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000354;
+  }
+}
+
+ion-side-menu {
+  background-color: #b4b4b4;
+  color: white;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000360;
+  }
+}
+
+.ima img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000368;
+  }
+}
+
+.item-body p {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000374;
+  }
+}
+
+ion-nav-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000383;
+  }
+}
+
+.demo {
+  margin-left: 30%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000387;
+  }
+}
+
+.black {
+  color: black !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000391;
+  }
+}
+
+.black:hover {
+  color: black !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000395;
+  }
+}
+
+.black.activated {
+  color: black !important;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/Loic\/Documents\/Wioflix\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000399;
+  }
+}
+
+.ion-arrow-left-c {
+  color: white !important;
+}

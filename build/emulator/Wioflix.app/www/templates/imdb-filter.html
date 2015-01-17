@@ -1,0 +1,31 @@
+<header class="bar bar-header bar-stable">
+    <h1 class="title">Filter</h1>
+</header>
+<ion-content class="has-header">
+<ion-list>
+    <ion-item nav-clear="" class="item-divider item">
+        Type
+    </ion-item>
+    <ion-item nav-clear menu-close href="#/main/imdb">
+        <button class="button">
+            Movies
+        </button>
+    </ion-item>
+    <ion-item nav-clear menu-close href="#/main/imdbtv">
+        <button class="button">
+            TV Shows
+        </button>
+    </ion-item>
+    <ion-item nav-clear="" class="item-divider item">
+        Genre: {{parentobj.categoryImdb}}
+    </ion-item>
+    <ion-item nav-clear menu-close ng-click="changeCategory('Any')">
+            Any
+    </ion-item>
+    <ion-list ng-repeat="post in posts3">
+        <ion-item  nav-clear menu-close ng-click="changeCategory(post.Genre)">
+            {{post.Genre}}
+        </ion-item>
+    </ion-list>
+</ion-list>
+</ion-content>

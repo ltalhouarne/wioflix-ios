@@ -1,0 +1,102 @@
+.bar.bar-light{
+  background-color: rgb(185,9,11);
+  color: white;
+
+  .title{
+    color:white;
+  }
+
+  button{
+    color: white;
+  }
+  button:active{
+    color: white;
+  }
+  button:hover{
+    color: white;
+  }
+}
+
+.bar-footer{
+  background-color: rgb(185,9,11) !important;
+}
+
+#logo {
+
+  margin-top:-25px;
+
+  img{
+    width:300px;
+  }
+}
+
+#list {
+  width: 170px;
+  margin: 30px auto;
+  font-size: 20px;
+
+  ol {
+    margin-top: 30px;
+
+    li {
+      text-align: left;
+      list-style: decimal;
+      margin: 10px 0px;
+    }
+  }
+}
+
+.centered{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ion-side-menu {
+  background-color: rgb(180, 180, 180);
+  color:white;
+}
+
+.ima{
+  img{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+  }
+}
+
+.item-body{
+  p{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+ion-nav-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff !important;
+}
+
+.demo{
+  margin-left: 30%;
+}
+
+.black{
+  color: black !important;
+}
+
+.black:hover{
+  color: black !important;
+}
+
+.black.activated{
+  color: black !important;
+}
+
+.ion-arrow-left-c{
+  color: white !important;
+}
+
