@@ -1,4 +1,4 @@
-Repository for Wioflix on iOS
+Repository for Wioflix on the Apple Store
 
 
 [Wioflix-ios](https://itunes.apple.com/us/app/wioflix/id957204575?mt=8&ign-mpt=uo%3D4)
